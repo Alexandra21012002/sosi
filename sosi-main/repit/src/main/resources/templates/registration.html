@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css" />
+        <title>Registration</title>
+</head>
+<body>
+<form  action="/registration" method="post" class="login-form" object = "auth">
+    <label for="username" class="form-label">Введите свой email:</label>
+    <input type="text" name="username" id="username" class="form-input" placeholder="Введите email" required>
+    <label for="password" class="form-label">Пароль:</label>
+    <input type="password" name="password" id="password" class="form-input" placeholder="Введите пароль" required>
+    <div><label>  <input type="radio" name="radioName" value="tutor" placeholder="tutor"/> Репетитор</label></div>
+    <div><label>  <input type="radio" name="radioName" value="student" placeholder="student"/> Ученик</label></div>
+    <button type="submit" class="form-button">Зарегистрироваться</button>
+</form>
+</body>
+</html>

@@ -1,0 +1,8 @@
+<http use-expressions="true">
+    <intercept-url pattern="/resources**" access="permitAll" />
+</http>
+
+<authentication-manager>
+    <authentication-provider
+      ref="AuthProviderImpl" />
+</authentication-manager>
